@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOURFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Great+Vibes&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <input type="radio" id="nav-welcome" name="main-page" class="hidden-radio" checked>
+    <input type="radio" id="nav-about" name="main-page" class="hidden-radio">
+    <input type="radio" id="nav-michaela" name="main-page" class="hidden-radio">
+    <input type="radio" id="nav-trisha" name="main-page" class="hidden-radio">
+    <input type="radio" id="nav-justine" name="main-page" class="hidden-radio">
+    <input type="radio" id="nav-johnric" name="main-page" class="hidden-radio">
+
+    <header class="main-header">
+        <div class="logo-area">
+            <span class="logo-icon">&#9670;</span>
+            <span class="logo-text">FOURFOLIO</span>
+        </div>
+
+        <nav class="main-nav-links">
+            <label for="nav-welcome" class="nav-btn">HOME</label>
+            <label for="nav-about" class="nav-btn">ABOUT US</label>
+        </nav>
+    </header>
+
+    <main class="main-content-viewport">
+
+       
+        <section id="view-welcome" class="page-view">
+            <div class="welcome-hero-content">
+                <div class="title-overlap-wrapper">
+                    <h1 class="cursive-welcome">Welcome</h1>
+                    <h2 class="bold-main-title">TO OUR FOURFOLIO</h2>
+                </div>
+                
+                <p class="hero-description">
+                    Here, you can explore our educational backgrounds, personal interests, skills, and school projects that reflect our learning and creativity.
+                </p>
+
+                <div class="welcome-actions">
+                    <label for="nav-about" class="btn-primary">GET TO KNOW US</label>
+                </div>
+            </div>
+
+            <div class="decorative-circle top-left-circle"></div>
+            <div class="decorative-circle bottom-right-circle"></div>
+        </section>
+
+       
+        <section id="view-about" class="page-view">
+            <div class="about-container">
+                <div class="about-header">
+                    <h2>GET TO KNOW US</h2>
+                    <p>Get a glimpse of who we are and the skills we bring as four aspiring IT professionals.</p>
+                </div>
+
+                <div class="team-grid">
+                    <label for="nav-michaela" class="card-label">
+                        <div class="editorial-card">
+                            <div class="photo-placeholder"><img src="michaela.jpeg" alt="Michaela"></div>
+                            <h3>MICHAELA VALIENTE</h3>
+                            <p class="role">BSIT STUDENT</p>
+                            <span class="open-link-badge">My Profile</span>
+                        </div>
+                    </label>
+
+                    <label for="nav-trisha" class="card-label">
+                        <div class="editorial-card">
+                            <div class="photo-placeholder"><img src="trisha.jpg" alt="Trisha"></div>
+                            <h3>TRISHA ANDRADA</h3>
+                            <p class="role">BSIT STUDENT</p>
+                            <span class="open-link-badge">My Profile </span>
+                        </div>
+                    </label>
+
+                    <label for="nav-justine" class="card-label">
+                        <div class="editorial-card">
+                            <div class="photo-placeholder"><img src="justine.jpg" alt="Justine"></div>
+                            <h3>JUSTINE RUSSEL DELA CRUZ</h3>
+                            <p class="role">BSIT STUDENT</p>
+                            <span class="open-link-badge">My Profile </span>
+                        </div>
+                    </label>
+
+                    <label for="nav-johnric" class="card-label">
+                        <div class="editorial-card">
+                            <div class="photo-placeholder"><img src="johnric.jpg" alt="Johnric"></div>
+                            <h3>JOHN RICARDO GOMEZ</h3>
+                            <p class="role">BSIT STUDENT</p>
+                            <span class="open-link-badge">My Profile </span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </section>
+
+       
+        <section id="view-michaela" class="page-view profile-main-wrapper">
+            <input type="radio" id="m-tab-about" name="m-subtab" class="hidden-radio" checked>
+            <input type="radio" id="m-tab-educ" name="m-subtab" class="hidden-radio">
+            <input type="radio" id="m-tab-skills" name="m-subtab" class="hidden-radio">
+            <input type="radio" id="m-tab-interest" name="m-subtab" class="hidden-radio">
+            <input type="radio" id="m-tab-works" name="m-subtab" class="hidden-radio">
+
+            <div class="profile-sub-navbar">
+                <div class="profile-nav-items">
+                    <label for="m-tab-about" class="sub-nav-btn">ABOUT ME</label>
+                    <label for="m-tab-educ" class="sub-nav-btn">EDUCATION</label>
+                    <label for="m-tab-skills" class="sub-nav-btn">SKILLS</label>
+                    <label for="m-tab-interest" class="sub-nav-btn">INTERESTS</label>
+                    <label for="m-tab-works" class="sub-nav-btn">WORKS</label>
+                    <label for="nav-about" class="sub-nav-btn back-team-btn">BACK</label>
+                </div>
+                <span class="profile-member-indicator">MICHAELA VALIENTE</span>
+            </div>
+
+            <div class="profile-content-container">
+                
+                <div id="m-subpage-about" class="profile-subpage">
+                    <div class="full-box clear-about-view">
+                        <div class="about-grid">
+                            <div class="about-img-col">
+                                <div class="large-photo-wrapper">
+                                    <img src="michaela.jpeg" alt="Michaela Valiente">
+                                </div>
+                                <div class="social-links-bar">
+                                    <a href="https://www.facebook.com/delulu.ky/" target="_blank" class="social-icon-btn fb" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/mckyx_" target="_blank" class="social-icon-btn ig" title="Instagram"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="about-text-col">
+                                <h2 class="main-heading large-name">Michaela Collado Valiente</h2>
+                                <p class="tagline">"Fall seven times, stand up eight"</p>
+                                <p class="bio-text">I am an Information Technology student who is eager to expand my knowledge and develop my abilities in the field of technology. My academic journey allows me to explore new concepts, improve my problem-solving skills, and gain experience through different school activities and projects. I believe that every learning experience contributes to my personal and academic development.</p>
+                                
+                                <div class="contact-details-list">
+                                    <div class="detail-item"><i class="fas fa-location-dot detail-icon"></i> <span>Manaoag, Pangasinan</span></div>
+                                    <div class="detail-item"><i class="fas fa-phone detail-icon"></i> <a href="tel:+639274574641">+63 927 457 4641</a></div>
+                                    <div class="detail-item"><i class="fas fa-envelope detail-icon"></i> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=itsmikavaliente@gmail.com" target="_blank">itsmikavaliente@gmail.com</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="m-subpage-educ" class="profile-subpage">
+                    <div class="editorial-card full-box educ-detailed-wrapper">
+                        <div class="skills-header"><h3>EDUCATION BACKGROUND</h3></div>
+                        <div class="educ-list-container">
+                            <div class="educ-item-card">
+                                <div class="educ-icon"><i class="fas fa-graduation-cap"></i></div>
+                                <div class="educ-details">
+                                    <h4>Bachelor of Science in Information Technology</h4>
+                                    <p class="school-name">University of Eastern Pangasinan</p>
+                                    <p class="school-address"><i class="fas fa-location-dot"></i>Canarvacanan, Binalonan Pangasinan</p>
+                                    <span class="educ-year">2024-2028</span>
+                                </div>
+                            </div>
+                            <div class="educ-item-card">
+                                <div class="educ-icon"><i class="fas fa-school"></i></div>
+                                <div class="educ-details">
+                                    <h4>Senior High School - STEM Strand</h4>
+                                    <p class="school-name">Manaoag National Senior High School</p>
+                                    <p class="school-address"><i class="fas fa-location-dot"></i>Poblacion, Manaoag Pangasinan</p>
+                                    <span class="educ-year">2022-2024</span>
+                                </div>
+                            </div>
+                            <div class="educ-item-card">
+                                <div class="educ-icon"><i class="fas fa-school"></i></div>
+                                <div class="educ-details">
+                                    <h4>Junior High School</h4>
+                                    <p class="school-name">Manaoag National High School</p>
+                                    <p class="school-address"><i class="fas fa-location-dot"></i>Poblacion, Manaoag Pangasinan</p>
+                                    <span class="educ-year">2018-2022</span>
+                                </div>
+                            </div>
+                            <div class="educ-item-card">
+                                <div class="educ-icon"><i class="fas fa-book-open"></i></div>
+                                <div class="educ-details">
+                                    <h4>Elementary Education</h4>
+                                    <p class="school-name">Lelemaan Elementary School</p>
+                                    <p class="school-address"><i class="fas fa-location-dot"></i>Lelemaan Manaoag Pangasinan</p>
+                                    <span class="educ-year">2011-2018</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="m-subpage-skills" class="profile-subpage">
+                    <div class="editorial-card full-box skills-split-wrapper">
+                        <div class="skills-header"><h3>SKILLS & EXPERTISE</h3></div>
+                        <div class="skills-split-container">
+                            <div class="skills-text-side">
+                                <ul class="custom-check-list">
+                                    <li>• <strong>Figma (Basic UI/UX Designing)</strong></li>
+                                    <li>• <strong>Microsoft Word (Document Formatting)</strong></li>
+                                    <li>• <strong>HTML & CSS</strong></li>
+                                    <li>• <strong>Canva (Digital Posters)</strong></li>
+                                    <li>• <strong>Visual Studio</strong></li>
+                                    <li>• <strong>Android Studio</strong></li>
+                                </ul>
+                            </div>
+                            <div class="skills-images-grid">
+                                <div class="skill-img-box"><img src="michaela_skills1.jpg" alt="Skill 1"></div>
+                                <div class="skill-img-box"><img src="michaela_skills2.jpg" alt="Skill 2"></div>
+                                <div class="skill-img-box"><img src="michaela_skills3.jpg" alt="Skill 3"></div>
+                                <div class="skill-img-box"><img src="michaela_skills4.jpg" alt="Skill 4"></div>
+                                <div class="skill-img-box"><img src="michaela_skills5.jpg" alt="Skill 5"></div>
+                                <div class="skill-img-box"><img src="michaela_skills6.jpg" alt="Skill 6"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="m-subpage-interest" class="profile-subpage">
+                    <div class="editorial-card full-box interest-gallery-wrapper">
+                        <div class="skills-header"><h3>PERSONAL INTERESTS</h3></div>
+                        <div class="interest-images-grid">
+                            <div class="interest-img-box"><img src="michaela_interest1.jpg" alt="Interest 1"></div>
+                            <div class="interest-img-box"><img src="michaela_interest2.jpg" alt="Interest 2"></div>
+                            <div class="interest-img-box"><img src="michaela_interest3.jpg" alt="Interest 3"></div>
+                            <div class="interest-img-box"><img src="michaela_interest4.jpg" alt="Interest 4"></div>
+                            <div class="interest-img-box"><img src="michaela_interest5.jpg" alt="Interest 5"></div>
+                            <div class="interest-img-box"><img src="michaela_interest6.jpg" alt="Interest 6"></div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="m-subpage-works" class="profile-subpage">
+    <div class="editorial-card full-box works-carousel-wrapper">
+        <div class="skills-header"><h3>SELECTED WORKS</h3></div>
+        
+        <input type="radio" name="m-work-slide" id="mw-1" class="hidden-radio" checked>
+        <input type="radio" name="m-work-slide" id="mw-2" class="hidden-radio">
+        <input type="radio" name="m-work-slide" id="mw-3" class="hidden-radio">
+        <input type="radio" name="m-work-slide" id="mw-4" class="hidden-radio">
+        <input type="radio" name="m-work-slide" id="mw-5" class="hidden-radio">
+        <input type="radio" name="m-work-slide" id="mw-6" class="hidden-radio">
+
+        <div class="works-slider-container">
+            <div class="works-nav-buttons">
+                <label for="mw-6" class="w-btn btn-prev prev-1">❮</label>
+                <label for="mw-1" class="w-btn btn-prev prev-2">❮</label>
+                <label for="mw-2" class="w-btn btn-prev prev-3">❮</label>
+                <label for="mw-3" class="w-btn btn-prev prev-4">❮</label>
+                <label for="mw-4" class="w-btn btn-prev prev-5">❮</label>
+                <label for="mw-5" class="w-btn btn-prev prev-6">❮</label>
+
+                <label for="mw-2" class="w-btn btn-next next-1">❯</label>
+                <label for="mw-3" class="w-btn btn-next next-2">❯</label>
+                <label for="mw-4" class="w-btn btn-next next-3">❯</label>
+                <label for="mw-5" class="w-btn btn-next next-4">❯</label>
+                <label for="mw-6" class="w-btn btn-next next-5">❯</label>
+                <label for="mw-1" class="w-btn btn-next next-6">❯</label>
+            </div>
+
+            <div class="works-track-window">
+                <div class="works-track">
+                    <div class="work-slide-item"><img src="michaela_work1.jpg" alt="Work 1"></div>
+                    <div class="work-slide-item"><img src="michaela_work2.png" alt="Work 2"></div>
+                    <div class="work-slide-item"><img src="michaela_work3.jpg" alt="Work 3"></div>
+                    <div class="work-slide-item"><img src="michaela_work4.jpg" alt="Work 4"></div>
+                    <div class="work-slide-item"><img src="michaela_work5.png" alt="Work 5"></div>
+                    <div class="work-slide-item"><img src="michaela_work6.jpg" alt="Work 6"></div>
+                </div>
+            </div>
+
+            <div class="work-caption-box">
+                <div class="caption-text cap-1">Canva - Digital Posters</div>
+                <div class="caption-text cap-2">Figma - Prototyping</div>
+                <div class="caption-text cap-3">Visual Studio - Student Management System</div>
+                <div class="caption-text cap-4">Laravel - Student Registration Form</div>
+                <div class="caption-text cap-5">Visual Studio - Personal Information Viewer</div>
+                <div class="caption-text cap-6">OOP - Raspberry Pi</div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+        
+        <section id="view-trisha" class="page-view profile-main-wrapper">
+            <input type="radio" id="t-tab-about" name="t-subtab" class="hidden-radio" checked>
+            <input type="radio" id="t-tab-educ" name="t-subtab" class="hidden-radio">
+            <input type="radio" id="t-tab-skills" name="t-subtab" class="hidden-radio">
+            <input type="radio" id="t-tab-interest" name="t-subtab" class="hidden-radio">
+            <input type="radio" id="t-tab-works" name="t-subtab" class="hidden-radio">
+
+            <div class="profile-sub-navbar">
+                <div class="profile-nav-items">
+                    <label for="t-tab-about" class="sub-nav-btn">ABOUT ME</label>
+                    <label for="t-tab-educ" class="sub-nav-btn">EDUCATION</label>
+                    <label for="t-tab-skills" class="sub-nav-btn">SKILLS</label>
+                    <label for="t-tab-interest" class="sub-nav-btn">INTERESTS</label>
+                    <label for="t-tab-works" class="sub-nav-btn">WORKS</label>
+                    <label for="nav-about" class="sub-nav-btn back-team-btn">BACK</label>
+                </div>
+                <span class="profile-member-indicator">TRISHA ANDRADA</span>
+            </div>
+
+            <div class="profile-content-container">
+                
+                <div id="t-subpage-about" class="profile-subpage">
+                    <div class="full-box clear-about-view">
+                        <div class="about-grid">
+                            <div class="about-img-col">
+                                <div class="large-photo-wrapper">
+                                    <img src="trisha.jpg" alt="Trisha Andrada">
+                                </div>
+                                <div class="social-links-bar">
+                                    <a href="https://www.facebook.com/trisha.n.andrada.2025/" target="_blank" class="social-icon-btn fb" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/trisha_andrda?xtok=cTduc3NoOGJkazE5&utm_source=qr" target="_blank" class="social-icon-btn ig" title="Instagram"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="about-text-col">
+                                <h2 class="main-heading large-name">Trisha Nipal Andrada</h2>
+                                <p class="tagline">"Isaiah 60:22 When the time is right, I, The Lord will make it happen"</p>
+                                <p class="bio-text">An Information Technology student with an interest in digital design and modern innovations. Enthusiastic about combining creativity and technology to create engaging digital experiences.</p>
+                                
+                                <div class="contact-details-list">
+                                    <div class="detail-item"><i class="fas fa-location-dot detail-icon"></i> <span>Urdaneta, Pangasinan</span></div>
+                                    <div class="detail-item"><i class="fas fa-phone detail-icon"></i> <a href="tel:09166410340">+63 916 641 0340</a></div>
+                                    <div class="detail-item"><i class="fas fa-envelope detail-icon"></i> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=trishaandrada556@gmail.com" target="_blank">trishaandrada556@gmail.com</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <div id="t-subpage-educ" class="profile-subpage">
+                    <div class="editorial-card full-box educ-detailed-wrapper">
+                        <div class="skills-header"><h3>EDUCATION BACKGROUND</h3></div>
+                        <div class="educ-list-container">
+                            <div class="educ-item-card">
+                                <div class="educ-icon"><i class="fas fa-graduation-cap"></i></div>
+                                <div class="educ-details">
+                                    <h4>Bachelor of Science in Information Technology</h4>
+                                    <p class="school-name">University of Eastern Pangasinan</p>
+                                    <p class="school-address"><i class="fas fa-location-dot"></i>Canarvacanan, Binalonan Pangasinan</p>
+                                    <span class="educ-year">2024-2028</span>
+                                </div>
+                            </div>
+                            <div class="educ-item-card">
+                                <div class="educ-icon"><i class="fas fa-school"></i></div>
+                                <div class="educ-details">
+                                    <h4>Senior High School - ABM Strand</h4>
+                                    <p class="school-name">Baguinay National High school</p>
+                                    <p class="school-address"><i class="fas fa-location-dot"></i>Baguinay, Manaoag Pangasinan  </p>
+                                    <span class="educ-year">2022-2024</span>
+                                </div>
+                            </div>
+                            <div class="educ-item-card">
+                                <div class="educ-icon"><i class="fas fa-school"></i></div>
+                                <div class="educ-details">
+                                    <h4>Junior High School</h4>
+                                    <p class="school-name">San Jose Leet Integrated School</p>
+                                    <p class="school-address"><i class="fas fa-location-dot"></i> San Jose, Urdaneta Pangasinan</p>
+                                    <span class="educ-year">2018-2022</span>
+                                </div>
+                            </div>
+                            <div class="educ-item-card">
+                                <div class="educ-icon"><i class="fas fa-book-open"></i></div>
+                                <div class="educ-details">
+                                    <h4>Elementary Education</h4>
+                                    <p class="school-name">Tolonguat Elementary School</p>
+                                    <p class="school-address"><i class="fas fa-location-dot"></i>Malasiqui, Pangasinan</p>
+                                    <span class="educ-year">2011-2018</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <div id="t-subpage-skills" class="profile-subpage">
+                    <div class="editorial-card full-box skills-split-wrapper">
+                        <div class="skills-header"><h3>SKILLS & EXPERTISE</h3></div>
+                        <div class="skills-split-container">
+                            <div class="skills-text-side">
+                                <ul class="custom-check-list">
+                                    <li>• <strong>HTML5 & CSS3</strong></li>
+                                    <li>• <strong>Cisco Packet Tracer</strong></li>
+                                    <li>• <strong>Visual Studio Code</strong></li>
+                                    <li>• <strong>XAMPP (Database Management)</strong></li>
+                                    <li>• <strong>Microsoft Office</strong></li>
+                                    <li>• <strong>Python (Basic Coding)</strong></li>
+                                </ul>
+                            </div>
+                            <div class="skills-images-grid">
+                                <div class="skill-img-box"><img src="trisha_skills1.jpg" alt="Skill 1"></div>
+                                <div class="skill-img-box"><img src="trisha_skills2.jpg" alt="Skill 2"></div>
+                                <div class="skill-img-box"><img src="trisha_skills3.jpg" alt="Skill 3"></div>
+                                <div class="skill-img-box"><img src="trisha_skills4.jpg" alt="Skill 4"></div>
+                                <div class="skill-img-box"><img src="trisha_skills5.jpg" alt="Skill 5"></div>
+                                <div class="skill-img-box"><img src="trisha_skills6.jpg" alt="Skill 6"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="t-subpage-interest" class="profile-subpage">
+                    <div class="editorial-card full-box interest-gallery-wrapper">
+                        <div class="skills-header"><h3>PERSONAL INTERESTS</h3></div>
+                        <div class="interest-images-grid">
+                            <div class="interest-img-box"><img src="trisha_interest1.jpg" alt="Interest 1"></div>
+                            <div class="interest-img-box"><img src="trisha_interest2.jpg" alt="Interest 2"></div>
+                            <div class="interest-img-box"><img src="trisha_interest3.jpg" alt="Interest 3"></div>
+                            <div class="interest-img-box"><img src="trisha_interest4.jpg" alt="Interest 4"></div>
+                            <div class="interest-img-box"><img src="trisha_interest5.jpg" alt="Interest 5"></div>
+                            <div class="interest-img-box"><img src="trisha_interest6.jpg" alt="Interest 6"></div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="t-subpage-works" class="profile-subpage">
+                    <div class="editorial-card full-box works-carousel-wrapper">
+                        <div class="skills-header"><h3>SELECTED WORKS</h3></div>
+                        
+                        <input type="radio" name="t-work-slide" id="tw-1" class="hidden-radio" checked>
+                        <input type="radio" name="t-work-slide" id="tw-2" class="hidden-radio">
+                        <input type="radio" name="t-work-slide" id="tw-3" class="hidden-radio">
+                        <input type="radio" name="t-work-slide" id="tw-4" class="hidden-radio">
+
+                        <div class="works-slider-container">
+                            <div class="works-nav-buttons">
+                                <label for="tw-4" class="w-btn btn-prev prev-1">❮</label>
+                                <label for="tw-1" class="w-btn btn-prev prev-2">❮</label>
+                                <label for="tw-2" class="w-btn btn-prev prev-3">❮</label>
+                                <label for="tw-3" class="w-btn btn-prev prev-4">❮</label>
+
+                                <label for="tw-2" class="w-btn btn-next next-1">❯</label>
+                                <label for="tw-3" class="w-btn btn-next next-2">❯</label>
+                                <label for="tw-4" class="w-btn btn-next next-3">❯</label>
+                                <label for="tw-1" class="w-btn btn-next next-4">❯</label>
+                            </div>
+
+                            <div class="works-track-window">
+                                <div class="works-track">
+                                    <div class="work-slide-item"><img src="trisha_work1.jpg" alt="Work 1"></div>
+                                    <div class="work-slide-item"><img src="trisha_work2.jpg" alt="Work 2"></div>
+                                    <div class="work-slide-item"><img src="trisha_work3.jpg" alt="Work 3"></div>
+                                    <div class="work-slide-item"><img src="trisha_work4.jpg" alt="Work 4"></div>
+                                </div>
+                            </div>
+
+                            <div class="work-caption-box">
+                                <div class="caption-text cap-1">Figma - Prototyping</div>
+                                <div class="caption-text cap-2">Laravel - Login Application</div>
+                                <div class="caption-text cap-3">Sublime - Resume</div>
+                                <div class="caption-text cap-4">Visual Studio Code - POS System</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="view-justine" class="page-view profile-main-wrapper">
+            <input type="radio" id="j-tab-about" name="j-subtab" class="hidden-radio" checked>
+            <input type="radio" id="j-tab-educ" name="j-subtab" class="hidden-radio">
+            <input type="radio" id="j-tab-skills" name="j-subtab" class="hidden-radio">
+            <input type="radio" id="j-tab-interest" name="j-subtab" class="hidden-radio">
+            <input type="radio" id="j-tab-works" name="j-subtab" class="hidden-radio">
+
+            <div class="profile-sub-navbar">
+                <div class="profile-nav-items">
+                    <label for="j-tab-about" class="sub-nav-btn">ABOUT ME</label>
+                    <label for="j-tab-educ" class="sub-nav-btn">EDUCATION</label>
+                    <label for="j-tab-skills" class="sub-nav-btn">SKILLS</label>
+                    <label for="j-tab-interest" class="sub-nav-btn">INTERESTS</label>
+                    <label for="j-tab-works" class="sub-nav-btn">WORKS</label>
+                    <label for="nav-about" class="sub-nav-btn back-team-btn">BACK</label>
+                </div>
+                <span class="profile-member-indicator">JUSTINE RUSSEL DELA CRUZ</span>
+            </div>
+
+            <div class="profile-content-container">
+                
+                <div id="j-subpage-about" class="profile-subpage">
+                    <div class="full-box clear-about-view">
+                        <div class="about-grid">
+                            <div class="about-img-col">
+                                <div class="large-photo-wrapper">
+                                    <img src="justine.jpg" alt="Justine Russel">
+                                </div>
+                                <div class="social-links-bar">
+                                    <a href="https://www.facebook.com/share/19kKyRMQUQ/?mibextid=wwXIfr" target="_blank" class="social-icon-btn fb" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/rus_dlcrz?exln=ZnpoaDA4MWtjMDV6&utm_source=qr" target="_blank" class="social-icon-btn ig" title="Instagram"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="about-text-col">
+                                <h2 class="main-heading large-name">Justine Russel Dela Cruz</h2>
+                                <p class="tagline">" Action first, motivation second"</p>
+                                <p class="bio-text">An Information Technology student exploring computer systems, software, and digital technologies. Focused on understanding how technology can provide practical solutions to everyday challenges.</p>
+                                
+                                <div class="contact-details-list">
+                                    <div class="detail-item"><i class="fas fa-location-dot detail-icon"></i> <span>Laoac, Pangasinan</span></div>
+                                    <div class="detail-item"><i class="fas fa-phone detail-icon"></i> <a href="tel:09085184800">+63 908 518 4800</a></div>
+                                    <div class="detail-item"><i class="fas fa-envelope detail-icon"></i> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=justine09888@gmail.com" target="_blank">justine09888@gmail.com</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="j-subpage-educ" class="profile-subpage">
+                    <div class="editorial-card full-box educ-detailed-wrapper">
+                        <div class="skills-header"><h3>EDUCATION BACKGROUND</h3></div>
+                        <div class="educ-list-container">
+                            <div class="educ-item-card">
+                                <div class="educ-icon"><i class="fas fa-graduation-cap"></i></div>
+                                <div class="educ-details">
+                                    <h4>Bachelor of Science in Information Technology</h4>
+                                    <p class="school-name">University of Eastern Pangasinan</p>
+                                    <p class="school-address"><i class="fas fa-location-dot"></i> Canarvacanan, Binalonan Pangasinan</p>
+                                    <span class="educ-year">2025 - 2029</span>
+                                </div>
+                            </div>
+                            <div class="educ-item-card">
+                                <div class="educ-icon"><i class="fas fa-school"></i></div>
+                                <div class="educ-details">
+                                    <h4>Senior High School - STEM Strand</h4>
+                                    <p class="school-name">Juan G. Macaraeg National High School</p>
+                                    <p class="school-address"><i class="fas fa-location-dot"></i> Canarvacanan, Binalonan Pangasinan</p>
+                                    <span class="educ-year">2023 - 2025</span>
+                                </div>
+                            </div>
+                            <div class="educ-item-card">
+                                <div class="educ-icon"><i class="fas fa-school"></i></div>
+                                <div class="educ-details">
+                                    <h4>Junior High School</h4>
+                                    <p class="school-name">Cabiloanan Agro Industrial High School</p>
+                                    <p class="school-address"><i class="fas fa-location-dot"></i> Cabilaoan, Laoac Pangasinan</p>
+                                    <span class="educ-year">2019 - 2023</span>
+                                </div>
+                            </div>
+                            <div class="educ-item-card">
+                                <div class="educ-icon"><i class="fas fa-book-open"></i></div>
+                                <div class="educ-details">
+                                    <h4>Elementary Education</h4>
+                                    <p class="school-name">Cabilaoan Elementary School</p>
+                                    <p class="school-address"><i class="fas fa-location-dot"></i> Cabilaoan, Laoac Pangasinan</p>
+                                    <span class="educ-year">2012 - 2019</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="j-subpage-skills" class="profile-subpage">
+                    <div class="editorial-card full-box skills-split-wrapper">
+                        <div class="skills-header"><h3>SKILLS & EXPERTISE</h3></div>
+                        <div class="skills-split-container">
+                            <div class="skills-text-side">
+                                <ul class="custom-check-list">
+                                    <li>• <strong>C++ (Basic coding)</strong></li>
+                                    <li>• <strong>Capcut (Video editing)</strong></li>
+                                    <li>• <strong>Microsoft Office</strong></li>
+                                    <li>• <strong>HTML & CSS</strong></li>
+                                    <li>• <strong>Javascript</strong></li>
+                                    <li>• <strong>Visual Studio Code</strong></li>
+                                </ul>
+                            </div>
+                            <div class="skills-images-grid">
+                                <div class="skill-img-box"><img src="justine_skills1.jpg" alt="Skill 1"></div>
+                                <div class="skill-img-box"><img src="justine_skills2.jpg" alt="Skill 2"></div>
+                                <div class="skill-img-box"><img src="justine_skills3.jpg" alt="Skill 3"></div>
+                                <div class="skill-img-box"><img src="justine_skills4.jpg" alt="Skill 4"></div>
+                                <div class="skill-img-box"><img src="justine_skills5.jpg" alt="Skill 5"></div>
+                                <div class="skill-img-box"><img src="justine_skills6.jpg" alt="Skill 6"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="j-subpage-interest" class="profile-subpage">
+                    <div class="editorial-card full-box interest-gallery-wrapper">
+                        <div class="skills-header"><h3>PERSONAL INTERESTS</h3></div>
+                        <div class="interest-images-grid">
+                            <div class="interest-img-box"><img src="justine_interest1.jpg" alt="Interest 1"></div>
+                            <div class="interest-img-box"><img src="justine_interest2.jpg" alt="Interest 2"></div>
+                            <div class="interest-img-box"><img src="justine_interest3.jpg" alt="Interest 3"></div>
+                            <div class="interest-img-box"><img src="justine_interest4.jpg" alt="Interest 4"></div>
+                            <div class="interest-img-box"><img src="justine_interest5.jpg" alt="Interest 5"></div>
+                            <div class="interest-img-box"><img src="justine_interest6.jpg" alt="Interest 6"></div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="j-subpage-works" class="profile-subpage">
+                    <div class="editorial-card full-box works-carousel-wrapper">
+                        <div class="skills-header"><h3>SELECTED WORKS</h3></div>
+                        
+                        <input type="radio" name="j-work-slide" id="jw-1" class="hidden-radio" checked>
+                        <input type="radio" name="j-work-slide" id="jw-2" class="hidden-radio">
+                        <input type="radio" name="j-work-slide" id="jw-3" class="hidden-radio">
+                        <input type="radio" name="j-work-slide" id="jw-4" class="hidden-radio">
+
+                        <div class="works-slider-container">
+                            <div class="works-nav-buttons">
+                                <label for="jw-4" class="w-btn btn-prev prev-1">❮</label>
+                                <label for="jw-1" class="w-btn btn-prev prev-2">❮</label>
+                                <label for="jw-2" class="w-btn btn-prev prev-3">❮</label>
+                                <label for="jw-3" class="w-btn btn-prev prev-4">❮</label>
+
+                                <label for="jw-2" class="w-btn btn-next next-1">❯</label>
+                                <label for="jw-3" class="w-btn btn-next next-2">❯</label>
+                                <label for="jw-4" class="w-btn btn-next next-3">❯</label>
+                                <label for="jw-1" class="w-btn btn-next next-4">❯</label>
+                            </div>
+
+                            <div class="works-track-window">
+                                <div class="works-track">
+                                    <div class="work-slide-item"><img src="justine_work1.png" alt="Work 1"></div>
+                                    <div class="work-slide-item"><img src="justine_work2.png" alt="Work 2"></div>
+                                    <div class="work-slide-item"><img src="justine_work3.png" alt="Work 3"></div>
+                                    <div class="work-slide-item"><img src="justine_work4.png" alt="Work 4"></div>
+                                </div>
+                            </div>
+
+                            <div class="work-caption-box">
+                                <div class="caption-text cap-1">01</div>
+                                <div class="caption-text cap-2">02</div>
+                                <div class="caption-text cap-3">03</div>
+                                <div class="caption-text cap-4">04</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="view-johnric" class="page-view profile-main-wrapper">
+            <input type="radio" id="jr-tab-about" name="jr-subtab" class="hidden-radio" checked>
+            <input type="radio" id="jr-tab-educ" name="jr-subtab" class="hidden-radio">
+            <input type="radio" id="jr-tab-skills" name="jr-subtab" class="hidden-radio">
+            <input type="radio" id="jr-tab-interest" name="jr-subtab" class="hidden-radio">
+            <input type="radio" id="jr-tab-works" name="jr-subtab" class="hidden-radio">
+
+            <div class="profile-sub-navbar">
+                <div class="profile-nav-items">
+                    <label for="jr-tab-about" class="sub-nav-btn">ABOUT ME</label>
+                    <label for="jr-tab-educ" class="sub-nav-btn">EDUCATION</label>
+                    <label for="jr-tab-skills" class="sub-nav-btn">SKILLS</label>
+                    <label for="jr-tab-interest" class="sub-nav-btn">INTERESTS</label>
+                    <label for="jr-tab-works" class="sub-nav-btn">WORKS</label>
+                    <label for="nav-about" class="sub-nav-btn back-team-btn">BACK</label>
+                </div>
+                <span class="profile-member-indicator">JOHN RICARDO GOMEZ</span>
+            </div>
+
+            <div class="profile-content-container">
+                
+                <div id="jr-subpage-about" class="profile-subpage">
+                    <div class="full-box clear-about-view">
+                        <div class="about-grid">
+                            <div class="about-img-col">
+                                <div class="large-photo-wrapper">
+                                    <img src="johnric.jpg" alt="Johnric Gomez">
+                                </div>
+                                <div class="social-links-bar">
+                                    <a href="https://www.facebook.com/share/1ESxiJzmYW/?mibextid=wwXIfr" target="_blank" class="social-icon-btn fb" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/tipsyreico?psln=MWlnN3V2cGZ4cGtuYw==" target="_blank" class="social-icon-btn ig" title="Instagram"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="about-text-col">
+                                <h2 class="main-heading large-name">John Ricardo Gomez</h2>
+                                <p class="tagline">"Every error is a chance to learn something new"</p>
+                                <p class="bio-text">An aspiring web developer interested in website design, coding, and interactive digital platforms. Passionate about turning creative ideas into functional and user-friendly websites.</p>
+                                
+                                <div class="contact-details-list">
+                                    <div class="detail-item"><i class="fas fa-location-dot detail-icon"></i> <span>Laoac, Pangasinan</span></div>
+                                    <div class="detail-item"><i class="fas fa-phone detail-icon"></i> <a href="tel:09126897835">+63 912 689 7835</a></div>
+                                    <div class="detail-item"><i class="fas fa-envelope detail-icon"></i> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=johnricardogomez@gmail.com" target="_blank">johnricardogomez@gmail.com</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <div id="jr-subpage-educ" class="profile-subpage">
+                    <div class="editorial-card full-box educ-detailed-wrapper">
+                        <div class="skills-header"><h3>EDUCATION BACKGROUND</h3></div>
+                        <div class="educ-list-container">
+                            <div class="educ-item-card">
+                                <div class="educ-icon"><i class="fas fa-graduation-cap"></i></div>
+                                <div class="educ-details">
+                                    <h4>Bachelor of Science in Information Technology</h4>
+                                    <p class="school-name">University of Eastern Pangasinan</p>
+                                    <p class="school-address"><i class="fas fa-location-dot"></i> Canarvacanan, Binalonan Pangasinan</p>
+                                    <span class="educ-year">2023 - 2029</span>
+                                </div>
+                            </div>
+                            <div class="educ-item-card">
+                                <div class="educ-icon"><i class="fas fa-school"></i></div>
+                                <div class="educ-details">
+                                    <h4>Senior High School - GAS Strand</h4>
+                                    <p class="school-name">Cabilaoan Agro Industrial High School</p>
+                                    <p class="school-address"><i class="fas fa-location-dot"></i>Cabilaoan, Laoac Pangasinan</p>
+                                    <span class="educ-year">2023 - 2025</span>
+                                </div>
+                            </div>
+                            <div class="educ-item-card">
+                                <div class="educ-icon"><i class="fas fa-school"></i></div>
+                                <div class="educ-details">
+                                    <h4>Junior High School</h4>
+                                    <p class="school-name">Cabilaoan Agro Industrial High School</p>
+                                    <p class="school-address"><i class="fas fa-location-dot"></i> Cabilaoan, Laoac Pangasinan</p>
+                                    <span class="educ-year">2019 - 2023</span>
+                                </div>
+                            </div>
+                            <div class="educ-item-card">
+                                <div class="educ-icon"><i class="fas fa-book-open"></i></div>
+                                <div class="educ-details">
+                                    <h4>Elementary Education</h4>
+                                    <p class="school-name">Quevedo Anisca Elementary School</p>
+                                    <p class="school-address"><i class="fas fa-location-dot"></i> Anis, Laoac Pangasinan</p>
+                                    <span class="educ-year">2012 - 2019</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="jr-subpage-skills" class="profile-subpage">
+                    <div class="editorial-card full-box skills-split-wrapper">
+                        <div class="skills-header"><h3>SKILLS & EXPERTISE</h3></div>
+                        <div class="skills-split-container">
+                            <div class="skills-text-side">
+                                <ul class="custom-check-list">
+                                    <li>• <strong>Javascript</strong></li>
+                                    <li>• <strong>C++</strong></li>
+                                    <li>• <strong>Microsoft Office</strong></li>
+                                    <li>• <strong>HTML & CSS</strong></li>
+                                    <li>• <strong>Visual Studio Code</strong></li>
+                                    <li>• <strong>Capcut (Video editing)</strong></li>
+                                </ul>
+                            </div>
+                            <div class="skills-images-grid">
+                                <div class="skill-img-box"><img src="johnric_skills1.jpg" alt="Skill 1"></div>
+                                <div class="skill-img-box"><img src="johnric_skills2.jpg" alt="Skill 2"></div>
+                                <div class="skill-img-box"><img src="johnric_skills3.jpg" alt="Skill 3"></div>
+                                <div class="skill-img-box"><img src="johnric_skills4.jpg" alt="Skill 4"></div>
+                                <div class="skill-img-box"><img src="johnric_skills5.jpg" alt="Skill 5"></div>
+                                <div class="skill-img-box"><img src="johnric_skills6.jpg" alt="Skill 6"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <div id="jr-subpage-interest" class="profile-subpage">
+                    <div class="editorial-card full-box interest-gallery-wrapper">
+                        <div class="skills-header"><h3>PERSONAL INTERESTS</h3></div>
+                        <div class="interest-images-grid">
+                            <div class="interest-img-box"><img src="johnric_interest1.jpg" alt="Interest 1"></div>
+                            <div class="interest-img-box"><img src="johnric_interest2.jpg" alt="Interest 2"></div>
+                            <div class="interest-img-box"><img src="johnric_interest3.jpg" alt="Interest 3"></div>
+                            <div class="interest-img-box"><img src="johnric_interest4.jpg" alt="Interest 4"></div>
+                            <div class="interest-img-box"><img src="johnric_interest5.jpg" alt="Interest 5"></div>
+                            <div class="interest-img-box"><img src="johnric_interest6.jpg" alt="Interest 6"></div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="jr-subpage-works" class="profile-subpage">
+                    <div class="editorial-card full-box works-carousel-wrapper">
+                        <div class="skills-header"><h3>SELECTED WORKS</h3></div>
+                        
+                        <input type="radio" name="jr-work-slide" id="jrw-1" class="hidden-radio" checked>
+                        <input type="radio" name="jr-work-slide" id="jrw-2" class="hidden-radio">
+                        <input type="radio" name="jr-work-slide" id="jrw-3" class="hidden-radio">
+                        <input type="radio" name="jr-work-slide" id="jrw-4" class="hidden-radio">
+
+                        <div class="works-slider-container">
+                            <div class="works-nav-buttons">
+                                <label for="jrw-4" class="w-btn btn-prev prev-1">❮</label>
+                                <label for="jrw-1" class="w-btn btn-prev prev-2">❮</label>
+                                <label for="jrw-2" class="w-btn btn-prev prev-3">❮</label>
+                                <label for="jrw-3" class="w-btn btn-prev prev-4">❮</label>
+
+                                <label for="jrw-2" class="w-btn btn-next next-1">❯</label>
+                                <label for="jrw-3" class="w-btn btn-next next-2">❯</label>
+                                <label for="jrw-4" class="w-btn btn-next next-3">❯</label>
+                                <label for="jrw-1" class="w-btn btn-next next-4">❯</label>
+                            </div>
+
+                            <div class="works-track-window">
+                                <div class="works-track">
+                                    <div class="work-slide-item"><img src="johnric_work1.png" alt="Work 1"></div>
+                                    <div class="work-slide-item"><img src="johnric_work2.png" alt="Work 2"></div>
+                                    <div class="work-slide-item"><img src="johnric_work3.png" alt="Work 3"></div>
+                                    <div class="work-slide-item"><img src="johnric_work4.png" alt="Work 4"></div>
+                                </div>
+                            </div>
+
+                            <div class="work-caption-box">
+                                <div class="caption-text cap-1">01</div>
+                                <div class="caption-text cap-2">02</div>
+                                <div class="caption-text cap-3">03</div>
+                                <div class="caption-text cap-4">04</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
